@@ -1,0 +1,95 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signup-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.password-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.password-label>a{
+    color: red;
+}
+#username, #password {
+    width: 100%;
+}
+#signup-btn {
+    margin-top: 10px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    color: white;
+    padding: 10px;
+}
+.needhelp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color:red;
+    margin-top: 50px;
+}
+.line {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+  }
+.line:before {
+    content: "";
+    border: 1px solid blue;
+    position: absolute;
+    width: 50%;
+    top: 10px;
+    left: -45px;
+}
+
+.line:after {
+    content: "";
+    border: 1px solid blue;
+    width: 50%;
+    position: absolute;
+    top: 10px;
+    right: -45px;
+}
+  .line span {
+    padding: 0 8px;
+    background-color: black;
+    position: relative;
+  }
+#create-btn {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    color:white;
+    padding: 10px;
+}
+footer {
+    display: flex;
+    border-top: 1px solid white;
+    flex-direction: row;
+    justify-content: center;
+}
+.footerlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footerlinks>a {
+    color: white;
+    margin: 0 10px;
+}

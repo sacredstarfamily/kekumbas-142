@@ -3,23 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>A Simple Signup</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <h1>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </h1>
-    </nav>
+   
     <main>
         <h1></h1>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div>
+                <img src="./logo.png" alt="" srcset="">
+            </div>
+            <div class="signup-div">
+                <form id="signup-form">
+                    <h1>Sign In</h1>
+                    <span class="email-label"><label for="username">Email(phone or mobile account)</label></span>
+                    <input type="text" name="username" id="username" placeholder="Username">
+                    <span class="password-label"><label for="password">password</label><a target="_blank">forgot password</a></span>
+                    <input type="password" name="password" id="password"placeholder="password">
+                    <button type="submit" id="signup-btn">Sign In</button>
+                    <span class="needhelp"><a target="_blank">Need Help?</a></span>
+                </form>
+            </div>
+            <div class="line">
+                <span>new to site</span>
+            </div>
+            <button id="create-btn">Create New Account</button>
     </main>
+    <footer>
+        <div class="footernav">
+        <div class="footerlinks">
+            <a>privacy</a> <a>conditionts of use</a> <a>help</a>
+        </div>
+        <p>&copy; 2024 All rights Reserved. Caleb Swenson</p>
+        </div>  
+    </footer>
 </body>
 </html>

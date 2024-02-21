@@ -17,7 +17,9 @@ main {
     border: 1px solid white;
     padding: 10px;
 }
-
+a {
+    cursor: pointer;
+}
 .password-label {
     display: flex;
     flex-direction: row;
@@ -25,7 +27,7 @@ main {
     align-items: center;
 }
 .password-label>a{
-    color: red;
+    color: rgb(157, 255, 0);
 }
 #username, #password {
     width: 100%;
@@ -44,7 +46,7 @@ main {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    color:red;
+    color:rgb(157, 255, 0);
     margin-top: 50px;
 }
 .line {
@@ -95,6 +97,7 @@ footer {
     align-items: center;
 }
 .footerlinks>a {
-    color: white;
+    color: rgb(157, 255, 0);
+    text-decoration: underline;
     margin: 0 10px;
 }
